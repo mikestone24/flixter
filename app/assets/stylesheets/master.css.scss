@@ -66,6 +66,14 @@ body {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
+.field_with_errors {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding:8px;
+  margin:10px;
+}
+
 .clr {
   clear:both;
 }
