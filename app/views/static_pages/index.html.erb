@@ -2,11 +2,10 @@
   <br />
   <div class="frosty col-xs-10 col-xs-offset-1 text-center">
     <br />
-    <h1>Learn Magic from the Pros</h1>
+    <h1>Code and Launch your Own Web Application</h1>
+    <h2>Technical Skills Courses and Meme Generation Training from the best starups in the world</h2>
     <br />
-    <h2>I'm an illusionist</h2>
-    <br />
-    <%= link_to 'Learn More', courses_path, class: 'btn btn-success' %>
+    <%= link_to 'Learn >>', courses_path, class: 'btn btn-success' %>
     <br /><br />
   </div>
 </div>
@@ -14,14 +13,23 @@
 <br />
 <div class="col-xs-10 col-xs-offset-1 features text-center">
   <div class="col-sm-4">
-    <h3>Feature 1</h3>
+       <%= image_tag 'play.png', class: 'front-page-icon' %>
+    <p class='feature-descriptions'>
+      Step by Step video instructions on how to build an awesome web application that looks good on mobile ( responsive) and is live on the internet in one fun weekend
+    </p>
   </div>
 
   <div class="col-sm-4">
-    <h3>Feature 2</h3>
+    <%= image_tag 'moniter.png', class: 'front-page-icon' %>
+    <p class='feature-descriptions'>
+     Learn the latest technologies used by the best startups to build launce products fast ( GitHub, heroku, AWS , Ruby on Rails, HTML5, CSS3)
+    </p>
   </div>
 
   <div class="col-sm-4">
-    <h3>Feature 3</h3>
+   <%= image_tag 'code.png', class: 'front-page-icon' %>
+        <p class='feature-descriptions'>
+     All the code snippets, cheat sheets and notes you need to continue building applications on your own after the class is over
+    </p>
   </div>
 </div>

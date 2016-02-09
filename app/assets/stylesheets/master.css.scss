@@ -42,6 +42,7 @@ ul .header .glyphicon {
 }
 
 .frosty {
+  margin-top:50px;
   background:rgba(0,0,0, 0.5);
   color:white;
 }
@@ -100,8 +101,20 @@ ul .header .glyphicon {
 .frosty h2 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
+  font-size:22px;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
+.feature-descriptions
+{
+   font-family: "Helvetica Neue", Helvetica;
+   margin-top:20px;
+    font-size:18px;
+}
+.features
+{
+  margin-top:15px;
+}
+
 ul {
       list-style-type: none;
 }
