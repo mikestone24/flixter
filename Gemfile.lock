@@ -145,6 +145,8 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.5.0)
+    ranked-model (0.4.0)
+      activerecord (>= 3.1.12)
     rdoc (4.2.1)
       json (~> 1.4)
     responders (2.1.1)
@@ -216,6 +218,7 @@ DEPENDENCIES
   pg (~> 0.15)
   rails (= 4.2.5)
   rails_12factor
+  ranked-model
   sass-rails
   sdoc (~> 0.4.0)
   simple_form
