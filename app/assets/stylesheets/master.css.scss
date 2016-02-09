@@ -7,6 +7,40 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:20px;
+   margin:20px;
+}
+
+ul .header {
+  font-size:25px;
+}
+.lessonglyph
+{
+  margin-top:9px;
+}
+.lessons li {
+  background:black;
+  color:white;
+  margin:10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding:8px;
+  font-size:15px;
+}
+.lessons li b {
+  font-size:25px;
+   font-weight:100;
+}
+.lessons li p {
+  margin:0;
+}
+ul .header .glyphicon {
+  font-size:20px;
+}
+
 .frosty {
   background:rgba(0,0,0, 0.5);
   color:white;
@@ -68,7 +102,9 @@ body {
   font-weight: 200;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
-
+ul {
+      list-style-type: none;
+}
 .btn {
   border-radius:0;
 }
