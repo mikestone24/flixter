@@ -29,7 +29,7 @@ gem 'carrierwave'
 
 gem "figaro"
 
-gem "fog"
+gem 'carrierwave-aws'
 
 gem 'mini_magick', '~> 4.3.1'
 
